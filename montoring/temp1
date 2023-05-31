@@ -1,0 +1,145 @@
+root           1  0.0  1.0 167416 10164 ?        Ss   May30   0:06 /lib/systemd/systemd --system --deserialize 36
+root           2  0.0  0.0      0     0 ?        S    May30   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   May30   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   May30   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   May30   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   May30   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   May30   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   May30   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    May30   0:00 [rcu_tasks_rude_kthread]
+root          12  0.0  0.0      0     0 ?        I    May30   0:00 [rcu_tasks_trace_kthread]
+root          13  0.0  0.0      0     0 ?        S    May30   0:01 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    May30   0:03 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    May30   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    May30   0:00 [idle_inject/0]
+root          18  0.0  0.0      0     0 ?        S    May30   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    May30   0:00 [kdevtmpfs]
+root          20  0.0  0.0      0     0 ?        I<   May30   0:00 [inet_frag_wq]
+root          21  0.0  0.0      0     0 ?        S    May30   0:00 [kauditd]
+root          22  0.0  0.0      0     0 ?        S    May30   0:00 [khungtaskd]
+root          24  0.0  0.0      0     0 ?        S    May30   0:00 [oom_reaper]
+root          25  0.0  0.0      0     0 ?        I<   May30   0:00 [writeback]
+root          27  0.0  0.0      0     0 ?        S    May30   0:03 [kcompactd0]
+root          28  0.0  0.0      0     0 ?        SN   May30   0:00 [ksmd]
+root          29  0.0  0.0      0     0 ?        SN   May30   0:00 [khugepaged]
+root          30  0.0  0.0      0     0 ?        I<   May30   0:00 [kintegrityd]
+root          31  0.0  0.0      0     0 ?        I<   May30   0:00 [kblockd]
+root          32  0.0  0.0      0     0 ?        I<   May30   0:00 [blkcg_punt_bio]
+root          33  0.0  0.0      0     0 ?        S    May30   0:00 [xen-balloon]
+root          34  0.0  0.0      0     0 ?        I<   May30   0:00 [tpm_dev_wq]
+root          35  0.0  0.0      0     0 ?        I<   May30   0:00 [ata_sff]
+root          36  0.0  0.0      0     0 ?        I<   May30   0:00 [md]
+root          37  0.0  0.0      0     0 ?        I<   May30   0:00 [edac-poller]
+root          38  0.0  0.0      0     0 ?        I<   May30   0:00 [devfreq_wq]
+root          39  0.0  0.0      0     0 ?        S    May30   0:00 [watchdogd]
+root          41  0.0  0.0      0     0 ?        I<   May30   0:01 [kworker/0:1H-kblockd]
+root          42  0.0  0.0      0     0 ?        S    May30   0:01 [kswapd0]
+root          43  0.0  0.0      0     0 ?        S    May30   0:00 [ecryptfs-kthread]
+root          49  0.0  0.0      0     0 ?        I<   May30   0:00 [kthrotld]
+root          53  0.0  0.0      0     0 ?        I<   May30   0:00 [acpi_thermal_pm]
+root          54  0.0  0.0      0     0 ?        S    May30   0:00 [xenbus]
+root          55  0.0  0.0      0     0 ?        S    May30   0:00 [xenwatch]
+root          56  0.0  0.0      0     0 ?        I<   May30   0:00 [nvme-wq]
+root          57  0.0  0.0      0     0 ?        I<   May30   0:00 [nvme-reset-wq]
+root          58  0.0  0.0      0     0 ?        I<   May30   0:00 [nvme-delete-wq]
+root          59  0.0  0.0      0     0 ?        S    May30   0:00 [scsi_eh_0]
+root          60  0.0  0.0      0     0 ?        I<   May30   0:00 [scsi_tmf_0]
+root          61  0.0  0.0      0     0 ?        S    May30   0:00 [scsi_eh_1]
+root          62  0.0  0.0      0     0 ?        I<   May30   0:00 [scsi_tmf_1]
+root          63  0.0  0.0      0     0 ?        I<   May30   0:00 [vfio-irqfd-clea]
+root          64  0.0  0.0      0     0 ?        I<   May30   0:00 [mld]
+root          65  0.0  0.0      0     0 ?        I<   May30   0:00 [ipv6_addrconf]
+root          70  0.0  0.0      0     0 ?        I<   May30   0:00 [kstrp]
+root          76  0.0  0.0      0     0 ?        I<   May30   0:00 [zswap-shrink]
+root          77  0.0  0.0      0     0 ?        I<   May30   0:00 [kworker/u31:0]
+root         123  0.0  0.0      0     0 ?        I<   May30   0:00 [charger_manager]
+root         124  0.0  0.0      0     0 ?        S    May30   0:04 [jbd2/xvda1-8]
+root         125  0.0  0.0      0     0 ?        I<   May30   0:00 [ext4-rsv-conver]
+root         203  0.0  0.0      0     0 ?        I<   May30   0:00 [kaluad]
+root         207  0.0  0.0      0     0 ?        I<   May30   0:00 [kmpath_rdacd]
+root         208  0.0  0.0      0     0 ?        I<   May30   0:00 [kmpathd]
+root         209  0.0  0.0      0     0 ?        I<   May30   0:00 [kmpath_handlerd]
+root         210  0.0  2.7 289312 27100 ?        SLsl May30   0:06 /sbin/multipathd -d -s
+root         231  0.0  0.0      0     0 ?        I<   May30   0:00 [cryptd]
+root         415  0.0  0.1   2812  1152 ?        Ss   May30   0:00 /usr/sbin/acpid
+root         420  0.0  0.2   7284  2736 ?        Ss   May30   0:00 /usr/sbin/cron -f -P
+message+     421  0.0  0.3   8704  3728 ?        Ss   May30   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         429  0.0  1.1  33208 11276 ?        Ss   May30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       434  0.0  0.5 222400  5532 ?        Ssl  May30   0:04 /usr/sbin/rsyslogd -n -iNONE
+root         438  0.0  0.5  16172  4948 ?        Ss   May30   0:00 /lib/systemd/systemd-logind
+root         470  0.0  0.1   6216  1096 ttyS0    Ss+  May30   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+root         477  0.0  0.1   6172  1096 tty1     Ss+  May30   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+_chrony      493  0.0  0.3  18888  3296 ?        S    May30   0:02 /usr/sbin/chronyd -F 1
+_chrony      496  0.0  0.0  10560   528 ?        S    May30   0:00 /usr/sbin/chronyd -F 1
+root         537  0.0  1.2 110072 12608 ?        Ssl  May30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         561  0.0  0.4 238828  4328 ?        Ssl  May30   0:00 /usr/libexec/polkitd --no-debug
+root       16450  0.0  2.2 744532 22500 ?        Ssl  May30   0:06 /usr/lib/snapd/snapd
+root       18611  0.0  0.6 1232716 6692 ?        Ssl  01:07   0:03 /snap/amazon-ssm-agent/6563/amazon-ssm-agent
+root       18635  0.0  0.8 1168540 8300 ?        Sl   01:07   0:02 /snap/amazon-ssm-agent/6563/ssm-agent-worker
+ubuntu     22335  0.0  0.4  16924  4848 ?        Ss   15:17   0:00 /lib/systemd/systemd --user
+ubuntu     22336  0.0  0.5 170372  4948 ?        S    15:17   0:00 (sd-pam)
+ubuntu     22463  0.0  0.0   2888   972 ?        S    15:18   0:00 sh /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ubuntu/.vscode-server/.b3e4e68a0bc097f0ae7907b217c1119af9e03435.token
+ubuntu     22473  0.1  7.6 867572 75880 ?        Sl   15:18   0:30 /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ubuntu/.vscode-server/.b3e4e68a0bc097f0ae7907b217c1119af9e03435.token
+ubuntu     22570  0.1  4.3 942836 42524 ?        Sl   15:18   0:27 /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/bootstrap-fork --type=ptyHost --logsPath /home/ubuntu/.vscode-server/data/logs/20230531T151802
+ubuntu     22743  0.0  2.2 838028 22016 ?        Sl   15:18   0:01 /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/bootstrap-fork --type=fileWatcher
+ubuntu     22847  0.0  0.5   9216  5120 pts/0    Ss   15:22   0:00 /bin/bash --init-file /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root       27346  0.0  0.8 295948  7940 ?        Ssl  16:57   0:00 /usr/libexec/packagekitd
+root       27348  0.0  0.0      0     0 ?        I    16:57   0:00 [kworker/0:1-cgroup_destroy]
+root       27350  0.0  4.6 278756 45668 ?        S<s  16:57   0:10 /lib/systemd/systemd-journald
+root       27353  0.0  0.3  11092  3868 ?        Ss   16:57   0:00 /lib/systemd/systemd-udevd
+root       27358  0.0  0.6  15420  6768 ?        Ss   16:57   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+systemd+   27379  0.0  0.3  16116  3260 ?        Ss   16:57   0:00 /lib/systemd/systemd-networkd
+systemd+   27391  0.0  0.7  25528  7544 ?        Ss   16:57   0:01 /lib/systemd/systemd-resolved
+root       27948  0.0  0.3  41220  3116 ?        Ss   16:57   0:02 /usr/lib/postfix/sbin/master -w
+postfix    27950  0.0  0.7  44200  6948 ?        S    16:57   0:10 qmgr -l -t unix -u
+root       28613  0.0  0.3  11892  3892 pts/0    S+   17:00   0:01 sudo su
+root       28614  0.0  0.2  11892  2356 pts/1    Ss   17:00   0:00 sudo su
+root       28615  0.0  0.3  10596  3056 pts/1    S    17:00   0:00 su
+root       28616  0.0  0.4   8024  4112 pts/1    S    17:00   0:00 bash
+postfix    31215  0.0  0.5  47312  5788 ?        S    17:41   0:00 tlsmgr -l -t unix -u -c
+root      117728  0.0  0.0      0     0 ?        I    18:58   0:00 [kworker/u30:1-events_power_efficient]
+root      148451  0.0  0.0      0     0 ?        I    19:39   0:00 [kworker/u30:3-ext4-rsv-conversion]
+root      148611  0.0  0.0      0     0 ?        I    19:47   0:00 [kworker/0:0-events]
+root      148798  0.0  0.8  16912  8712 ?        Ss   20:06   0:00 sshd: ubuntu [priv]
+ubuntu    148852  0.0  0.7  17744  7148 ?        S    20:06   0:00 sshd: ubuntu@notty
+ubuntu    148853  0.0  0.3   8024  3704 ?        Ss   20:06   0:00 bash
+ubuntu    148906  0.6  6.8 863248 67248 ?        Sl   20:06   0:03 /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+ubuntu    148917  0.0  2.6 837712 26464 ?        Sl   20:06   0:00 /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/bootstrap-fork --type=fileWatcher
+root      153274  0.0  0.0      0     0 ?        I    20:08   0:00 [kworker/u30:4-events_unbound]
+postfix   153447  0.0  0.7  41556  7120 ?        S    20:10   0:00 trivial-rewrite -n rewrite -t unix -u -c
+postfix   157796  0.0  1.1  47788 11820 ?        S    20:13   0:00 smtp -t unix -u -c
+postfix   157819  0.0  1.1  47788 11796 ?        S    20:13   0:00 smtp -t unix -u -c
+postfix   157830  0.0  1.1  47788 11816 ?        S    20:13   0:00 smtp -t unix -u -c
+postfix   157843  0.0  1.1  47788 11816 ?        S    20:13   0:00 smtp -t unix -u -c
+postfix   157866  0.0  1.1  47788 11772 ?        S    20:13   0:00 smtp -t unix -u -c
+postfix   161466  0.0  0.7  41548  7192 ?        S    20:14   0:00 pickup -l -t unix -u -c
+postfix   161470  0.0  0.7  41648  7212 ?        S    20:14   0:00 cleanup -z -t unix -u -c
+tomcat    162242  5.4 14.5 3143892 144352 ?      Sl   20:14   0:03 /usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-9.0.68//conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xms512M -Xmx1024M -server -XX:+UseParallelGC -Dignore.endorsed.dirs= -classpath /opt/tomcat/apache-tomcat-9.0.68//bin/bootstrap.jar:/opt/tomcat/apache-tomcat-9.0.68//bin/tomcat-juli.jar -Dcatalina.base=/opt/tomcat/apache-tomcat-9.0.68/ -Dcatalina.home=/opt/tomcat/apache-tomcat-9.0.68/ -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-9.0.68//temp org.apache.catalina.startup.Bootstrap start
+postfix   162317  0.0  0.7  41576  7128 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162318  0.0  0.7  41540  7100 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162319  0.0  0.7  41540  7096 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162320  0.0  0.7  41540  7104 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162321  0.0  0.7  41576  7184 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162322  0.0  0.7  41540  7096 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162323  0.0  0.7  41576  7024 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162324  0.0  0.7  41540  7104 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162325  0.0  0.7  41576  7160 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162326  0.0  0.7  41540  7120 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162327  0.0  0.7  41576  7136 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162328  0.0  0.7  41540  7104 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162329  0.0  0.7  41576  7136 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162330  0.0  0.7  41540  7040 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162331  0.0  0.7  41576  7132 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162332  0.0  0.7  41540  6992 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162333  0.0  0.7  41576  7128 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162334  0.0  0.7  41540  7104 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162335  0.0  0.7  41540  7180 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162336  0.0  0.7  41576  7156 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+postfix   162337  0.0  0.7  41540  7040 ?        S    20:14   0:00 error -n retry -t unix -u -c
+postfix   162338  0.0  0.7  41576  7132 ?        S    20:14   0:00 bounce -z -n defer -t unix -u -c
+ubuntu    162339  0.0  0.1   6188  1024 ?        S    20:15   0:00 sleep 180
+ubuntu    162369  0.0  0.0   2888   972 ?        S    20:15   0:00 /bin/sh -c "/home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/base/node/cpuUsage.sh" 22847 28613 28614 28615 28616
+ubuntu    162370  0.0  0.3   7760  3400 ?        S    20:15   0:00 /bin/bash /home/ubuntu/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/base/node/cpuUsage.sh 22847 28613 28614 28615 28616
+ubuntu    162377  0.0  0.1   6188  1024 ?        S    20:15   0:00 sleep 1
+root      162378  0.0  0.0   2888   972 pts/1    S+   20:15   0:00 sh monitor_process.sh
+root      162380  0.0  0.3  10460  3344 pts/1    R+   20:15   0:00 ps aux
