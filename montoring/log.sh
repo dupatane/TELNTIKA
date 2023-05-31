@@ -1,7 +1,7 @@
 #!/bin/bash
-
-log_file="/var/log/auth.log"
-pattern="Invalid user"  # The pattern to detect in the log file
+#set -x
+log_file="/home/ubuntu/TELNTIKA/montoring/auth.log"
+pattern="error"  # The pattern to detect in the log file
 email_recipient="dupatanekrishna@gmail.com"  # Email recipient
 
 tail "$log_file" | while read line

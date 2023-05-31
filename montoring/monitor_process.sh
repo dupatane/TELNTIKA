@@ -4,7 +4,6 @@
 
 ser="tomcat"
 cpu_thr="0.9"
-touch temp
 ps aux > temp1
         sed -i '1d' temp1 
         while read line
@@ -17,7 +16,7 @@ ps aux > temp1
         echo "process_id = $ps_id"
         echo "cpu utilization is optimum value = $cpu "
         else
-        echo "cpu is overloaded value = $cpu " | mail -s "CPU overloaded for $ser $ps_id and $cpu " dupatanekrishna@gmail.com
+        echo "cpu is overloaded value = $cpu " | mail -s "CPU overloaded for service_name: $ser process_id : $ps_id and cpu_utilization in % $cpu " dupatanekrishna@gmail.com
         fi
         done < temp1 
 
@@ -29,5 +28,4 @@ do
         echo $i >> temp
     fi
 done
-mail -s "Service Stopped" dupatanekrishna@gmail.com < temp
-rm temp
+mail -s "Service Stopped $ser " dupatanekrishna@gmail.com < temp
